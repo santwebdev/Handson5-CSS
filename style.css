@@ -1,0 +1,356 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('./body.jpg');
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 20px;
+    padding-top: 40px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.item{
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    right: -300px;
+    top: 7px;
+    padding-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo img {
+    height: 50px;
+    padding-left: 100px;
+}
+.menu img {
+    height: 30px;
+    padding-right: 100px;
+}
+.gridd{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    position: relative;
+    top: 30px;
+}
+.tont1{
+    color: white;
+}
+h1{
+    font-size: 100px;
+    position: relative;
+    left: 85px;
+}
+.font{
+    font-size: medium;
+    position: relative;
+    left: 85px;
+    top: -70px;
+}
+button{
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: white;
+    position: relative;
+    left: 85px;
+    top: -50px;
+}
+.tont2{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    row-gap: 28px;
+    column-gap: 40px;
+    position: relative;
+    left: 170px;
+    bottom: 30px;
+   
+}
+.places{
+    border: 2px solid rgb(221, 216, 216);
+    height: 200px;
+    width:  180px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: white;
+}
+.places:hover{
+    position: relative;
+    bottom: 10px;
+}
+h3{
+    font-weight: bold;
+}
+p{
+    font-size: small;
+    line-height: 25px;
+    position: relative;
+    top: -13px;
+}
+#pyra{
+    background-image: url('./five.jpg');
+    background-size: cover;
+}
+#baga{
+    background-image: url('./four.jpg');
+    background-size: cover;
+}
+#kala{
+    background-image: url('./three.jpg');
+    background-size: cover;
+}
+#gira{
+    background-image: url('./two.jpg');
+    background-size: cover;
+}
+@media (min-width:280px) and (max-width:500px) {
+    header{
+        display: flex;
+        justify-content: left;
+        position: relative;
+        left: -120px;
+        /* align-items: center; */
+        /* padding: 20px; */
+        /* padding-top: 20px; */
+        top: -20px;
+    }
+    nav{
+        display: flex;
+        justify-content: left;
+        position: relative;
+        flex-direction: column;
+        left: -200px;
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-weight: bolder;
+        position: relative;
+        margin-right: 30px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .logo img {
+        height: 40px;
+        position: relative;
+        left: 10px;
+    }
+    .menu img {
+        height: 30px;
+        padding-right: 100px;
+        position: relative;
+        top: 5px;
+        left: 45px;
+        margin-left: 10px;
+    }
+    .gridd{
+        display: block;
+    }
+    .tont1{
+        color: white;
+    }
+    h1{
+        font-size: 30px;
+        position: relative;
+        left: 10px;
+        bottom: 70px;
+    }
+    .font{
+        font-size: smaller;
+        position: relative;
+        left: 10px;
+        /* bottom: -90px; */
+        top: -80px;
+    }
+    .fair{
+        display: none;
+    }
+    br{
+        display: none;
+    }
+    button{
+        height: 35px;
+        width: 150px;
+        border-radius: 20px;
+        border: 2px solid white;
+        background-color: white;
+        position: relative;
+        left: 35px;
+        bottom: 80px;
+    }
+    .tont2{
+        display: block;
+        position: relative;
+        left: 35px;
+       
+    }
+    .places{
+        border: 2px solid rgb(221, 216, 216);
+        height: 200px;
+        width:  180px;
+        border-radius: 15px;
+        /*padding-left: 20px;
+        padding-top: 10px; */
+        color: white;
+        margin-top: 20px;
+    }
+    .places:hover{
+        position: relative;
+        bottom: 10px;
+    }
+    h3{
+        font-weight: bold;
+    }
+    p{
+        font-size: small;
+        line-height: 25px;
+        position: relative;
+        top: -13px;
+    }
+    #pyra{
+        background-image: url('./five.jpg');
+        background-size: cover;
+    }
+    #baga{
+        background-image: url('./four.jpg');
+        background-size: cover;
+    }
+    #kala{
+        background-image: url('./three.jpg');
+        background-size: cover;
+    }
+    #gira{
+        background-image: url('./two.jpg');
+        background-size: cover;
+    }
+}
+@media (min-width:600px) and (max-width:1200px) {
+    header{
+        display: flex;
+        justify-content: start;
+        /* align-items: center; */
+        /* padding: 20px; */
+        /* padding-top: 20px; */
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .item{
+        display: flex;
+        align-items: start;
+        color: white;
+        font-weight: bolder;
+        position: relative;
+        /* left: 90px; */
+        top: 7px;
+        /* padding-right: 30px; */
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .logo img {
+        height: 50px;
+        padding-left: 100px;
+    }
+    .menu img {
+        height: 30px;
+        padding-right: 100px;
+    }
+    .gridd{
+        display: grid;
+        grid-template-columns: 40% 40%;
+        position: relative;
+        top: 30px;
+    }
+    .tont1{
+        color: white;
+    }
+    h1{
+        font-size: 100px;
+        position: relative;
+        left: 85px;
+    }
+    .font{
+        font-size: medium;
+        position: relative;
+        left: 85px;
+        top: -70px;
+    }
+    button{
+        height: 35px;
+        width: 150px;
+        border-radius: 20px;
+        border: 2px solid white;
+        background-color: white;
+        position: relative;
+        left: 85px;
+        top: -50px;
+    }
+    .tont2{
+        display: block;
+        /* grid-template-columns: 200px 200px;
+        row-gap: 28px;
+        column-gap: 40px;
+        position: relative;
+        left: 170px;
+        bottom: 30px; */
+       
+    }
+    .places{
+        border: 2px solid rgb(221, 216, 216);
+        height: 200px;
+        width:  380px;
+        border-radius: 15px;
+        position: relative;
+        right: 360px;
+        top: 450px;
+        margin-top: 20px;
+        color: white;
+    }
+    .places:hover{
+        position: relative;
+        bottom: 10px;
+    }
+    h3{
+        font-weight: bold;
+    }
+    p{
+        font-size: small;
+        line-height: 25px;
+        position: relative;
+        top: -13px;
+    }
+    #pyra{
+        background-image: url('./five.jpg');
+        background-size: cover;
+    }
+    #baga{
+        background-image: url('./four.jpg');
+        background-size: cover;
+    }
+    #kala{
+        background-image: url('./three.jpg');
+        background-size: cover;
+    }
+    #gira{
+        background-image: url('./two.jpg');
+        background-size: cover;
+    }
+}
